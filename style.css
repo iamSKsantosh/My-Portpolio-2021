@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.offset{
+    display: block;
+    content:"";
+    height: 6rem;
+}
+/* Home */
+.navbar {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.6;
+  padding: 18px 0;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #000;
+}
+
+.navbar-light .nav-item .nav-link.active,
+.navbar-light .nav-item .nav-link:hover {
+  color: white;
+  text-shadow: 1px;
+}
+
+.heading-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff ;
+    font-family: sans-serif;    
+}
+
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: sans-serif;    
+}
+
+.heading-content p{
+    font-size: 2em;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-family: sans-serif;    
+}
+
+/* About */
+
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 5px solid rgb(235, 14, 14);
+    cursor: pointer;
+}
+
+/* Services */
+#service .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+} 
+
+#service button {
+    border: 5px solid rgb(15, 221, 170);
+    cursor: pointer;
+}
+
+#service button:hover{
+    border: 5px solid rgb(118, 223, 150);
+    cursor: pointer;
+}

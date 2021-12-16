@@ -1,0 +1,28 @@
+@media (max-width:768px)   {
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding: 10px 0;
+    }
+
+    .heading-content {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .heading-content h5{
+        font-size: 3em;
+       
+    }
+    
+    .heading-content h1{
+        font-size: 4em;
+          
+    }
+    
+    .heading-content p{
+        font-size: 0.9em;
+          
+    }
+}
